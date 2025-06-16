@@ -11,6 +11,8 @@
 
 <body>
     <h2>A Samble Form</h2>
+
+
     <form>
         <div>
             <label>Enter your name :</label> <br>
@@ -18,11 +20,20 @@
         </div>
         <br>
 
+       
+        <div>
+            <label for="">Select a photo file :</label><br>
+            <input type="file">
+        </div>
+        <br>
+
+
         <div>
             <label>Enter your Phone Number :</label> <br>
             <input type="number" placeholder="01xxxxxxxxx" />
         </div>
         <br>
+
 
         <div>
             <label>Select your gender :</label><br>
@@ -30,6 +41,24 @@
             <input type="radio">Female
         </div>
         <br>
+
+
+        <div>
+            <label for="">Select your blood group :</label><br>
+            <select name="blood-group" id="blood-group">
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+                <option value="O+">o+</option>
+                <option value="O-">o-</option>
+                <option value="N/A" selected>N/A</option>
+            </select>
+        </div>
+        <br>
+
 
         <div>
             <label for="">Select your Hobby :</label><br>
@@ -39,6 +68,8 @@
             <input type="checkbox">Crawfting <br>
         </div>
         <br>
+
+
         <div>
             <label>Select your Districts :</label> <br>
             <select name="Districts" id="Districts">
@@ -53,10 +84,14 @@
             </select>
         </div>
         <br>
+
+
         <div>
             <input type="submit" />
         </div>
     </form>
+
+    
 </body>
 
 </html>
